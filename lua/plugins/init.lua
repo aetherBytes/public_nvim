@@ -25,6 +25,7 @@ local default_plugins = {
 
   {
    "NvChad/nvterm",
+   (skeleton configs)
     init = function()
       require("core.utils").load_mappings "nvterm"
     end,
