@@ -51,6 +51,9 @@ opt.whichwrap:append "<>[]hl"
 
 g.mapleader = " "
 
+-- double mapped tab keys
+vim.g.copilot_assume_mapped = true
+
 -- disable some default providers
 for _, provider in ipairs { "node", "perl", "python3", "ruby" } do
   vim.g["loaded_" .. provider .. "_provider"] = 0
